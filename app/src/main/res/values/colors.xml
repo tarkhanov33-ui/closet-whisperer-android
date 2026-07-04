@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Designed and developed by 2022 skydoves (Jaewoong Eum)
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+<resources>
+  <color name="colorPrimary">#A89080</color>
+  <color name="colorPrimaryDark">#6F6353</color>
+  <color name="colorAccent">#A89080</color>
+  <color name="background">#F5F0EB</color>
+  
+  <color name="canvas">#F5F0EB</color>
+  <color name="elevated">#F8F7FB</color>
+  
+  <color name="cream_50">#FAF7F3</color>
+  <color name="cream_100">#F5F0EB</color>
+  <color name="cream_200">#EDE5DC</color>
+  
+  <color name="taupe_300">#C9BFB0</color>
+  <color name="taupe_500">#A89080</color>
+  <color name="taupe_700">#6F6353</color>
+  
+  <color name="ink_primary">#1A1A1A</color>
+  <color name="ink_secondary">#2C2C2C</color>
+  <color name="ink_muted">#827F7E</color>
+  <color name="ink_inverse">#FFFFFF</color>
+  
+  <color name="border_strong">#8A7E70</color>
+  <color name="border_subtle">#CFC5B6</color>
+  
+  <color name="brand_primary">#C9BFB0</color>
+  <color name="brand_accent">#A89080</color>
+
+  <!-- Status colors -->
+  <color name="status_good">#D4EDDA</color>
+  <color name="status_good_text">#155724</color>
+  <color name="status_warning">#FFF3CD</color>
+  <color name="status_warning_text">#856404</color>
+  <color name="status_bad">#F8D7DA</color>
+  <color name="status_bad_text">#721C24</color>
+
+  <color name="white">#ffffff</color>
+  <color name="black">#000000</color>
+</resources>
