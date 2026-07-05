@@ -33,7 +33,7 @@ internal object NetworkModule {
   fun provideClosetRetrofit(okHttpClient: OkHttpClient, moshi: Moshi): Retrofit {
     return Retrofit.Builder()
       .client(okHttpClient)
-      .baseUrl("http://10.0.2.2:8081/ambient_invisible_intelligence/")
+      .baseUrl("https://integrative-b2026-amit-shlomo-bzawhhfbe0b7g8bn.israelcentral-01.azurewebsites.net/ambient_invisible_intelligence/")
       .addConverterFactory(MoshiConverterFactory.create(moshi))
       .addCallAdapterFactory(ApiResponseCallAdapterFactory.create())
       .build()
