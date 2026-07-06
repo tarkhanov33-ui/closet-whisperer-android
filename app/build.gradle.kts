@@ -71,6 +71,9 @@ dependencies {
   // modules
   implementation(projects.coreData)
 
+  // remote theming SDK (via JitPack)
+  implementation("com.github.tarkhanov33-ui:RemoteUiSdk:1.0.0")
+
 
 
   // androidx

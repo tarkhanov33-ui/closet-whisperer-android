@@ -39,7 +39,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="24dp"
-            android:text="Welcome back"
+            android:text="Create my closet"
             android:textColor="@color/ink_primary"
             android:textSize="24sp"
             android:textStyle="bold" />
@@ -67,7 +67,6 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="12dp"
                 android:hint="Name"
-                android:visibility="gone"
                 app:boxBackgroundColor="@color/white"
                 app:boxStrokeColor="@color/border_strong"
                 app:hintTextColor="@color/ink_muted">
@@ -123,8 +122,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="12dp"
-                android:orientation="vertical"
-                android:visibility="gone">
+                android:orientation="vertical">
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -169,7 +167,6 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="12dp"
                 android:hint="Date of birth"
-                android:visibility="gone"
                 app:boxBackgroundColor="@color/white"
                 app:boxStrokeColor="@color/border_strong"
                 app:hintTextColor="@color/ink_muted">
@@ -187,8 +184,7 @@
                 android:id="@+id/registerBiometricsLayout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:visibility="gone">
+                android:orientation="vertical">
 
                 <com.google.android.material.textfield.TextInputLayout
                     style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
@@ -302,7 +298,7 @@
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:backgroundTint="@color/brand_accent"
-            android:text="Login to dashboard"
+            android:text="Create my closet"
             android:textColor="@color/white"
             android:textStyle="bold"
             app:cornerRadius="8dp" />
@@ -317,14 +313,14 @@
                 android:id="@+id/toggleModeLabel"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Don't have an account? "
+                android:text="Already have an account? "
                 android:textColor="@color/ink_muted" />
 
             <TextView
                 android:id="@+id/toggleModeButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Register"
+                android:text="Login"
                 android:textColor="@color/brand_accent"
                 android:textStyle="bold" />
         </LinearLayout>

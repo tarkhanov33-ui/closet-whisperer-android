@@ -160,6 +160,7 @@ class LoginActivity : AppCompatActivity() {
     toggleModeButton.setOnClickListener {
       isLoginMode = !isLoginMode
       if (isLoginMode) {
+        com.example.remoteuisdk.RemoteUiSdk.setScreen("login")
         authTitleText.setText(R.string.login_title)
         authSubtitleText.setText(R.string.login_subtitle)
         submitButton.text = "Login to dashboard"
@@ -170,6 +171,7 @@ class LoginActivity : AppCompatActivity() {
         dobInputLayout.visibility = View.GONE
         registerBiometricsLayout.visibility = View.GONE
       } else {
+        com.example.remoteuisdk.RemoteUiSdk.setScreen("register")
         authTitleText.setText(R.string.register_title)
         authSubtitleText.setText(R.string.register_subtitle)
         submitButton.text = "Create my closet"

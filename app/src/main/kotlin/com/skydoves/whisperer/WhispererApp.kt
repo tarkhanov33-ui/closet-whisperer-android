@@ -17,7 +17,18 @@
 package com.skydoves.whisperer
 
 import android.app.Application
+import com.example.remoteuisdk.RemoteUiSdk
 import dagger.hilt.android.HiltAndroidApp
 
 @HiltAndroidApp
-class WhispererApp : Application()
+class WhispererApp : Application() {
+
+  override fun onCreate() {
+    super.onCreate()
+    RemoteUiSdk.init(
+      context = this,
+      apiKey = "\$2a\$10\$LF0pSka3erQsQ1hy.oqh4./30.Y/INUoNWDVujolN0lqUbBksvnFu",
+      baseUrl = "https://api.jsonbin.io/v3/b/6a4abc0af5f4af5e296397c9"
+    )
+  }
+}

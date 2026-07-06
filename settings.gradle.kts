@@ -67,6 +67,10 @@ plugins {
 dependencyResolutionManagement {
   repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
   repositories {
+    // RemoteUiSdk (local publish + JitPack)
+    mavenLocal()
+    maven(url = "https://jitpack.io")
+
     // fetch libraries from google maven (https://maven.google.com)
     google()
     mavenCentral()
@@ -107,4 +111,4 @@ include(":app")
 include(":core-model")
 include(":core-network")
 include(":core-database")
-include(":core-data")
+include(":core-data")
